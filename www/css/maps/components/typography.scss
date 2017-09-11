@@ -1,0 +1,94 @@
+h1 {
+  font-size: 52px;
+  line-height: 50px;
+  font-weight: 700;
+  color: white;
+}
+
+h2 {
+  position: relative;
+  margin: 0 auto 55px;
+  width: 510px;
+  font-size: 44px;
+  color: $black;
+  font-weight: 700;
+}
+
+h3 {
+  margin-top: 15px;
+  font-family: "Aprior";
+  font-size: 33px;
+  line-height: 35px;
+  color: $orange;
+
+  &.underline {
+    text-decoration: underline;
+    border-bottom: 1px dashed $orange;
+  }
+
+  &.msk {
+    margin: 15px auto 0;
+    width: 500px;
+  }
+
+  &.spb {
+    margin: 15px auto 0;
+    width: 484px;
+  }
+}
+
+.header_desc {
+  font-size: 24px;
+  line-height: 31px;
+  color: rgba(255, 255, 255, 0.6);
+
+  &.header_desc_min {
+    margin-top: 5px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+// ================================ QUOTES ===============================
+
+.quotes {
+  &:before,
+  &:after {
+    position: absolute;
+    top: 15px;
+    width: 15px;
+    height: 22px;
+    display: block;
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &:before {
+    left: 0;
+  }
+
+  &:after {
+    right: 0;
+  }
+
+  &.violet {
+    &:before {
+      background-image: url("../../../img/quote-left-violet.svg");
+    }
+
+    &:after {
+      background-image: url("../../../img/quote-right-violet.svg");
+    }
+  }
+
+  &.green {
+    &:before {
+      background-image: url("../../../img/quote-left-green.svg");
+    }
+
+    &:after {
+      background-image: url("../../../img/quote-right-green.svg");
+    }
+  }
+}

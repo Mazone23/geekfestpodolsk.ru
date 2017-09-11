@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  color: $black;
+}
+
+.container {
+  width: 950px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 70px 0 55px;
+  overflow: hidden;
+}
+
+.section-speakers,
+.section-contacts  {
+  position: relative;
+  background-color: #F9F8FB;
+
+  h2 {
+    width: 570px;
+
+    span {
+      text-transform: uppercase;
+    }
+  }
+}
+
+.btn_scroll_down {
+  position: absolute;
+  left: 50%;
+  margin-left: -21px;
+  bottom: -65px;
+  cursor: pointer;
+}

@@ -1,0 +1,34 @@
+.cities {
+  margin-top: 20px;
+}
+
+.city {
+  display: inline-block;
+  width: 400px;
+  color: $orange;
+}
+
+.city_date,
+.city_name,
+.city_adress {
+  font-family: "Aprior";
+}
+
+.city_date {
+  font-size: 33px;
+  // color: $green;
+}
+
+.city_name {
+  margin: 5px 0 10px;
+  font-size: 40px;
+}
+
+.city_adress {
+  font-size: 25px;
+
+  span {
+    color: $green;
+    font-size: 20px;
+  }
+}

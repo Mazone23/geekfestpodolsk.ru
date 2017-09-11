@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="23px" viewBox="0 0 16 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>pixels_violet</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="digital_jungle" sketch:type="MSArtboardGroup" transform="translate(-346.000000, -783.000000)">
+            <g id="2_section" sketch:type="MSLayerGroup" transform="translate(175.000000, 760.000000)">
+                <g id="title_2" transform="translate(171.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <g id="pixels_violet" transform="translate(8.000000, 34.500000) scale(-1, 1) translate(-8.000000, -34.500000) translate(0.000000, 23.000000)">
+                        <rect id="Path" fill="#7F53AB" x="0" y="0" width="8" height="8"></rect>
+                        <rect id="Rectangle-2048" fill="#8053AA" x="0" y="15" width="8" height="8"></rect>
+                        <rect id="Rectangle-2048" fill="#C280FF" x="8" y="7" width="8" height="8"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

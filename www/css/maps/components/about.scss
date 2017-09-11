@@ -1,0 +1,14 @@
+.section-about_feature {
+  display: inline-block;
+  width: 250px;
+
+  &:nth-child(2) {
+    margin: 0 100px;
+  }
+}
+
+.section-about_feature_desc {
+  margin-top: 25px;
+  font-size: 22px;
+  font-weight: 700;
+}

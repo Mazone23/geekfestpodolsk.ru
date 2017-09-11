@@ -1,0 +1,25 @@
+@import 'modules/reset';
+@import 'modules/tune';
+@import 'modules/icons';
+@import 'modules/mixins';
+// @import 'sprite';
+
+
+@import 'fonts';
+@import 'variables';
+
+@import 'components/header';
+@import 'components/typography';
+@import 'components/container';
+@import 'components/ui';
+@import 'components/city';
+@import 'components/about';
+@import 'components/schedule';
+@import 'components/participants';
+@import 'components/contacts';
+@import 'components/partners';
+
+
+html {
+  min-width: 1100px;
+}
