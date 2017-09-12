@@ -393,7 +393,7 @@ body {
 }
 
 .container {
-    width: 950px;
+    width: 1020px;
     margin: 0 auto;
 }
 
@@ -531,7 +531,8 @@ section {
 
 .section-about_feature {
     display: inline-block;
-    width: 250px;
+    width: 260px;
+    height: 250px;
 }
 
 .section-about_feature:nth-child(1) {
