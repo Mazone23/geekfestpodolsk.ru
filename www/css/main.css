@@ -928,12 +928,17 @@ html {
 }
 
 .left {
-	float: left; 
-	width: 50%; 
-	height:100%; 
-    
+    float: left;
+    width: 50%;
+    height: 100%;
 }
+
 .right {
-	height:100%; 
-	margin-left: 50%;
+    height: 100%;
+    margin-left: 50%;
+}
+
+.container-for-others {
+    width: 1000px;
+    margin: 0 auto;
 }
