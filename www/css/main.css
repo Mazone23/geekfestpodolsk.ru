@@ -393,7 +393,7 @@ body {
 }
 
 .container {
-    width: 1020px;
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -640,6 +640,12 @@ section {
 .schedule_item {
     position: relative;
     height: 180px;
+    text-align: left;
+}
+
+.schedule_item_forworkshops {
+    position: relative;
+    height: 230px;
     text-align: left;
 }
 
@@ -909,4 +915,25 @@ section {
 
 html {
     min-width: 1100px;
+}
+
+.registry-btn {
+    display: block;
+    width: 214px;
+    height: 65px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 99999;
+}
+
+.left {
+	float: left; 
+	width: 50%; 
+	height:100%; 
+    
+}
+.right {
+	height:100%; 
+	margin-left: 50%;
 }

@@ -106,3 +106,13 @@
         "./ga": 2
     }]
 }, {}, [3]);
+
+function setVisibility(id) {
+    if (document.getElementById('bt1').value == 'Скрыть заявку') {
+        document.getElementById('bt1').value = 'Открыть заявку';
+        document.getElementById(id).style.display = 'none';
+    } else {
+        document.getElementById('bt1').value = 'Скрыть заявку';
+        document.getElementById(id).style.display = 'inline';
+    }
+}
