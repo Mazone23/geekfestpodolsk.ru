@@ -212,7 +212,8 @@ input[type=number]:: -webkit-outer-spin-button {
 .header {
     position: relative;
     height: 810px;
-    background-image: url("../img/geometry.png");
+    background-image: url("../img/bg-for-header.jpg");
+    background-size: cover;
     padding-top: 25px;
     overflow: hidden;
 }
@@ -427,6 +428,7 @@ section {
 }
 
 .btn {
+    font-family: 'PT Sans Narrow', sans-serif;
     display: inline-block;
     margin-top: 20px;
     background-image: linear-gradient(-180deg, #6DD3F0 0%, #00B6E9 100%);
